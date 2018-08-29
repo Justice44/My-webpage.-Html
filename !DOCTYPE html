@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+      <head>
+              <title>Home page</tile>
+      </head>
+      <body> 
+              <form name="frmDataEntry"action="processor.html" method="get">
+              <div>
+                     <p>User Name:</p>
+              </div>
+              <input type="txtUserName" id="txtUserName"value=""/><br/></input>
+              <p>Password:</p>
+              <input type="password"name="pwdUser"id="pwdUser"value=""/><br/></input>
+              <p>Confirm Password:</p>
+              <inputtype="password"name="pwdUser"id="pwdConfirm" value=""/><br/></input>
+              <p>Gender:</p>
+              <input type="radio" name="rdbGender"id="rdbGender"value="m"checked/>Male</input>
+              <input type="radio" name="rdbGender"id="rdbGender"value="f"checked/>Female</input>
+              <p>Are you physically challenged?</p>
+              <input type="radio"name="rdbQuestion"id="rdbQuestion"value="y"/>Yes
+              <input type<="radio"name="rdbQuestion"id="rdbQuestion"value="n"/>No<br/></input>
+              <p>Software Skills:</p>
+              <input type="checkbox"name="chkSoftwareSkills" value="c"checked/>C</input>
+              <input type="checkbox"name="chkSoftwareSkills" value="cpp"/>C++</input>
+             <input type="checkbox"name="chkSoftwareSkills" value="j"/>Java</input>
+             </form>
+         </body>
+  </html>
